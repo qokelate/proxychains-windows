@@ -250,6 +250,7 @@
     <ClCompile Include="..\src\exe\args_and_config.c" />
     <ClCompile Include="..\src\exe\ipc_proc_bookkeeping.c" />
     <ClCompile Include="..\src\exe\main.c" />
+    <ClCompile Include="..\src\runner\runner.exe.cpp" />
     <ClCompile Include="..\src\stdlib_config_reader.c" />
   </ItemGroup>
   <ItemGroup>

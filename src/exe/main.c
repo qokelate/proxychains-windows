@@ -474,6 +474,7 @@ DWORD InitProcessBookkeeping(void);
 #if defined(PXCH_MSYS_USE_WIN32_STYLE)
 int main(int argc, char* argv[])
 #else
+extern int runner_main(int argc, const char** argv);
 int wmain(int argc, WCHAR* wargv[])
 #endif
 {
@@ -487,6 +488,8 @@ int wmain(int argc, WCHAR* wargv[])
 #if defined(PXCH_MSYS_USE_WIN32_STYLE)
 	WCHAR** wargv;
 #endif
+
+	if (1 == argc) runner_main(1, NULL);
 
 #if defined(PXCH_MSYS_USE_WIN32_STYLE)
 	{

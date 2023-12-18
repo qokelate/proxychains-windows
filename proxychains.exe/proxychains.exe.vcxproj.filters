@@ -27,6 +27,9 @@
     <ClCompile Include="..\src\stdlib_config_reader.c">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\runner\runner.exe.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\hookdll_util_ipc_generic.h">
